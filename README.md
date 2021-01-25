@@ -12,5 +12,7 @@ GET Endpoints
 POST Endpoints
 
 4. http://localhost:3000/addSales = To add data to sales table
-   data: username (string)
-   amount (number)
+   data: {
+          username (string)
+          amount (number)
+        }
