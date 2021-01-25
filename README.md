@@ -3,17 +3,22 @@
 A Sales Api
 
 APIs:
-GET Endpoints
 
-1. http://localhost:3000/daily = To check daily sales by hour
-2. http://localhost:3000/weekly = To check sales by days of the week
-3. http://localhost:3000/monthly = To check sales by days of the monthly
+Base Endpoint : 
+http://localhost:3000/
 
-POST Endpoints
+GET Endpoints : 
 
-4. http://localhost:3000/addSales = To add data to sales table
+1. /daily : To check daily sales by hour
+2. /weekly : To check sales by days of the week
+3. /monthly : To check sales by days of the monthly
+
+POST Endpoint :
+
+1. /addSales : To add data to sales table
    
-    Payload: {
+    Payload: 
+            {
 
                username (string)
                amount (number)
